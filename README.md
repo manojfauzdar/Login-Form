@@ -1,2 +1,2 @@
-# Vue-SignIn-Form
-SignIn/SignUp form using Vue and Bulma.
+# SignIn/SignUp Form
+Simple SignIn/SignUp form using Vue2 and Bulma framework.
