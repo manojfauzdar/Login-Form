@@ -1,0 +1,20 @@
+.login-body-bg {
+    background: url(../img/bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.login-body-bg .hero {
+	background: transparent; 
+}
+.container {
+	margin-top: 60px;
+}
+.terms{
+	font-style: oblique;
+}
+.button.is-block {
+	display: block;
+	width: 100%;
+}

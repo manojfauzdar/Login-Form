@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bulma | Vue</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body class="login-body-bg">
+	<section class="hero">
+    	<div class="hero-body">
+			<div id="root" class="container">
+				<div class="columns is-desktop">
+					<div class="column is-one-third is-offset-4">
+						<tabs>
+							<tab name="Sign In" :selected="true">
+								<div class="field">
+									<p class="control has-icons-left">
+									    <input class="input" type="email" placeholder="Email">
+									    <span class="icon is-small is-left">
+									      <i class="fa fa-envelope"></i>
+									    </span>
+									</p>
+								</div>
+								<div class="field">
+									<p class="control has-icons-left">
+									    <input class="input" type="password" placeholder="Password">
+									    <span class="icon is-small is-left">
+									      <i class="fa fa-lock"></i>
+									    </span>
+									</p>
+								</div>
+								<div class="field">
+									<p class="terms has-text-right">
+									    <a href="">Forgot Password ?</a>
+									</p>
+								</div>
+								<div class="field">
+									<p class="control">
+									    <button class="button is-block is-primary is-outlined pull-right">
+									    <span>Login</span>
+									    <span class="icon">
+									      <i class="fa fa-sign-in"></i>
+									    </span>
+									    </button>
+									</p>
+								</div>
+							</tab>
+
+							<tab name="Sign Up">
+								<div class="field">
+									<p class="control has-icons-left">
+									    <input class="input" type="text" placeholder="User name">
+									    <span class="icon is-small is-left">
+									      <i class="fa fa-user"></i>
+									    </span>
+									</p>
+								</div>
+								<div class="field">
+									<p class="control has-icons-left">
+									    <input class="input" type="email" placeholder="Email">
+									    <span class="icon is-small is-left">
+									      <i class="fa fa-envelope"></i>
+									    </span>
+									</p>
+								</div>
+								<div class="field">
+									<p class="control has-icons-left">
+									    <input class="input" type="password" placeholder="Password">
+									    <span class="icon is-small is-left">
+									      <i class="fa fa-lock"></i>
+									    </span>
+									</p>
+								</div>
+								<div class="field">
+									<p class="control has-icons-left">
+									    <input class="input" type="password" placeholder="Confirm Password">
+									    <span class="icon is-small is-left">
+									      <i class="fa fa-lock"></i>
+									    </span>
+									</p>
+								</div>
+								<div class="field">
+								  <p class="control">
+								    <label class="checkbox">
+								      <input type="checkbox">
+								      I agree to the <a href="#" class="terms">terms and conditions</a> .
+								    </label>
+								  </p>
+								</div>
+								<div class="field">
+									<p class="control">
+									    <button class="button is-success is-block is-outlined pull-right">
+									    <span>Register</span>
+									    <span class="icon">
+									      <i class="fa fa-arrow-right"></i>
+									    </span>
+									    </button>
+									</p>
+								</div>
+							</tab>
+						</tabs>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<script src="js/vue.js" type="text/javascript"></script>
+<script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
